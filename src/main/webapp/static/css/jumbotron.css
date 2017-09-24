@@ -1,0 +1,37 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.bookCover{
+    width: 60%;
+    height: 10%;
+}
+
+.bookCover img{
+    width: 100%;
+    height: 100%;
+}
+
+.shopping-cart{
+    width: 100%;
+    height: 100%;
+    background-image: url("imgs/cart2.png");
+}
+
+.bouton-image {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-top;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+    text-align: center;
+}
+
+.monBouton{
+     background-image : url(http://icons.iconarchive.com/icons/fasticon/shop-cart/48/shop-cart-add-icon.png);
+}
